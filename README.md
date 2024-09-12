@@ -1,8 +1,8 @@
 # React + Vite
 
-
-![Screenshot 2024-09-12 115411](https://github.com/user-attachments/assets/355633de-ceac-412c-aef5-d2a99da0cc2d)
-![Screenshot 2024-09-12 115358](https://github.com/user-attachments/assets/f179a3c4-3f86-466c-a320-8412e1d70b29)![Screenshot 2024-09-12 115340](https://github.com/user-attachments/assets/e2d59ceb-2450-485e-a684-4e6c70c54e94)
+![Screenshot 2024-09-12 115259](https://github.com/user-attachments/assets/9399e37f-df46-4d31-b9eb-47bb2a6674db)
+![Screenshot 2024-09-12 115340](https://github.com/user-attachments/assets/248bebcd-2542-4839-bc37-778d29486a50)
+![Screenshot 2024-09-12 115411](https://github.com/user-attachments/assets/954ccd17-4807-4162-a4b6-6d7069f0d751)
 
 
 Currently, two official plugins are available:

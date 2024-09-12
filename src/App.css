@@ -1,0 +1,92 @@
+/* Container for the entire app */
+.w-screen, .h-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Messages container */
+.messages {
+  flex-grow: 1; /* This ensures that the messages area takes up all available space */
+  overflow-y: auto; /* Allow scrolling when content overflows */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input container */
+.inputbox {
+  display: flex;
+  flex-wrap: wrap; /* Allow text to wrap inside the input box */
+  background-color: #181818;
+  border-radius: 30px;
+  padding: 10px;
+  width: 100%;
+  max-width: 60%;
+}
+
+/* Input field styling */
+.inputbox input {
+  flex-grow: 1; /* Allow input to expand with content */
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Ensure the input box grows with the content */
+.inputbox input:focus {
+  height: auto;
+  overflow-y: hidden; /* Prevent overflow scrolling inside input */
+}
+
+/* Bottom section styling */
+.bottom {
+  background-color: #0e0e0e;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; /* Keep the input at the bottom */
+}
+
+/* Ensure user messages are aligned correctly */
+.userMsg {
+  clear: both;
+  font-size:20px;
+  background-color: #181818;
+  padding: 15px;
+  border-radius: 30px;
+  max-width: 60vw;
+  min-width: 20vw;
+  margin-bottom: 10px;
+}
+
+.responseMsg{
+  
+clear: both;
+background-color: #181818;
+padding: 15px;
+border-radius: 30px;
+max-width: 60vw;
+min-width: 20vw;
+margin-bottom: 10px;
+font-size: 20px;
+margin-left: 90px;
+
+}
+
+.userMsg {
+  align-self: flex-end;
+}
+
+.responseMsg {
+  align-self: flex-start;
+}
+
+.chat{
+  margin-left: 20px;
+
+
+}
